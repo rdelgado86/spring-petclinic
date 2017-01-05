@@ -1,4 +1,3 @@
-#
 stage 'Checkout'
  node('slave') {
   deleteDir()
