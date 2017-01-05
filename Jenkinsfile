@@ -31,6 +31,9 @@ node {
          currentBuild.result = 'FAILURE'
       throw err
    }
+   
+   echo 'Cobertura de testes'
+   sh 'mvn cobertura:cobertura'
    // ------------------------------------
 
 
