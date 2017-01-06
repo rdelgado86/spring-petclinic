@@ -41,7 +41,7 @@ node {
    stage 'Inspeção de Código'
    echo 'Inspeção contínua de qualidade de código'
    sh 'mvn clean'
-   sh 'mvn package sonar:sonar -Dsonar.host.url=http://52.67.95.244:9000"
+   sh 'mvn package sonar:sonar -Dsonar.host.url=http://52.67.95.244:9000'
    // ------------------------------------
    
 
